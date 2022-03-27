@@ -20,8 +20,8 @@ ENV SQLALCHEMY_ECHO=True
 EXPOSE 8000
 
 WORKDIR /var/www
-COPY . .
-COPY --from=build-stage /react-app/build/* app/static/
+COPY server/ .
+COPY --from=build-stage /client/build/* app/static/
 
 # Install Python Dependencies
 RUN pip install -r requirements.txt
