@@ -17,6 +17,7 @@ export default function Splash() {
             <div className='welcomeTidyNoteSentence'>
               <h3 className='welcome'>Welcome to&nbsp;</h3>
               <h3 className='welcomeTidyNote'>TidyNote</h3>
+              <h3 className='welcome'>!</h3>
             </div>
             <div className='topOneSentence'>
               <h3 className='topOneColor'>Tame&nbsp;</h3>
