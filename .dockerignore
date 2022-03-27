@@ -1,0 +1,14 @@
+.env
+.DS_Store
+
+# Backend
+server/.venv
+server/Pipfile
+server/Pipfile.lock
+
+# Frontend
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/node_modules

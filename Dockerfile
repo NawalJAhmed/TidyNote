@@ -1,7 +1,7 @@
 FROM node:12 AS build-stage
 
-WORKDIR /react-app
-COPY react-app/. .
+WORKDIR /client
+COPY client/. .
 
 # You have to set this because it should be set during build time.
 ENV REACT_APP_BASE_URL=https://tidynote-flask.herokuapp.com/
