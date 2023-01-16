@@ -4,6 +4,20 @@ function Footer() {
   return (
     <div id='footer-container'>
       <div className='name-and-link'>
+      <div className='name-and-link'>
+        <p id='name'>Jarif Ahmed</p>
+        <div id='links'>
+          <div id='github'>
+            <a className='gl-links' href='https://github.com/JarifNAhmed'>
+              <img
+                className='links-logo-3'
+                src='https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png'
+                alt='Github logo'
+              />
+            </a>
+          </div>
+        </div>
+      </div>
         <p id='name'>Andrew Tran</p>
         <div id='links'>
           <div id='github'>
@@ -24,20 +38,6 @@ function Footer() {
             <a className='gl-links' href='https://github.com/JamesRR91'>
               <img
                 className='links-logo-2'
-                src='https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png'
-                alt='Github logo'
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className='name-and-link'>
-        <p id='name'>Nawal Ahmed</p>
-        <div id='links'>
-          <div id='github'>
-            <a className='gl-links' href='https://github.com/NawalJAhmed'>
-              <img
-                className='links-logo-3'
                 src='https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png'
                 alt='Github logo'
               />
