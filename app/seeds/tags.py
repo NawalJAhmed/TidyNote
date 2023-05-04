@@ -1,5 +1,4 @@
 from app.models import db, Tag
-from app.models.db import environment, SCHEMA
 
 # Adds a demo user, you can add other users here if you want
 def seed_tags():
@@ -26,8 +25,5 @@ def seed_tags():
 # resets the auto incrementing primary key, CASCADE deletes any
 # dependent entities
 def undo_tags():
-    if environment == 'production':
-        db.session.execute(f"TRUNCATE table {SCHEMA}.tags RESTART IDENTITY CASCADE;")
-    else:
-        db.session.execute("DELETE FROM tags")
+    db.session.execute('TRUNCATE tags RESTART IDENTITY CASCADE;')
     db.session.commit()
