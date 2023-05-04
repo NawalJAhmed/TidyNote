@@ -1,9 +1,9 @@
-# Welcome to Tidy-Note
+# Welcome to TidyNote
 
-Welcome to Tidy-Note, a clone of the popular note-taking app, Evernote with CRUD operations to keep track of all your notes.
+Welcome to TidyNote, a clone of the popular note-taking app, Evernote with CRUD operations to keep track of all your notes.
 
 ## Live-link : 
-   [TidyNote](https://tidynote-flask-app.herokuapp.com/)
+[TidyNote](https://tidynote-supabase.onrender.com/)
 
 ## Summary :
 
@@ -23,11 +23,11 @@ TidyNote is a single-page note-taking app that features a rich-text editor, imag
 
 ## Splash Page
 
-![Screenshot (676)](https://user-images.githubusercontent.com/45556028/149858223-fc1c3a73-fec6-414f-8830-b33f0b65084c.png)
+![Screenshot (676)](https://user-images.githubusercontent.com/11577850/173901196-3dd32b55-fb48-440a-9f68-b423a50c3c16.png)
 
 ## Home Page
 
-![Screenshot (677)](https://user-images.githubusercontent.com/45556028/149858281-cd4422fd-a319-4f9c-8d0f-bd1778b8cada.png)
+![Screenshot (677)](https://user-images.githubusercontent.com/11577850/173901274-283ed23b-1616-4fc0-82d9-375f24d5dbcf.png)
 
 ## Features
 
